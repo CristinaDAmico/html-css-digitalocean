@@ -86,6 +86,7 @@ h1 {
 
 .cd-google {
     color: #626262;
+    box-shadow: 1px 1px rgba(0, 0, 0, .1);
     position: relative;
 } 
 
@@ -99,13 +100,14 @@ h1 {
 
 /* SECTION 2 platforms */
 .platforms {
-    height: 550px;
     background-color: #f3f5f9;
+    padding: 50px 0;
 }
 
 .platforms h4 {
     color: #8a94a9;
     text-transform: uppercase;
+    margin-top: 0
 }
 
 .platforms ul li {
@@ -113,5 +115,13 @@ h1 {
 }
 
 .platforms img {
-    max-width: 100%;
+    width: 100%;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 767px) {
+    .platforms ul li {
+        width: calc((100% / 2) - 5%);
+    }
 }
