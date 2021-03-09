@@ -1,8 +1,7 @@
 /* GENERAL */
 
 body {
-    font-weight: bold;
-    color: #8a94a9;
+    color: #5e6c89;
 }
 
 h2,
@@ -12,6 +11,11 @@ h5,
 h6 {
     color: #031c4e;
     font-weight: bold;
+}
+
+/* UTILITIES */
+.bg_l-grey {
+    background-color: #f3f5f9;
 }
 
 /* STYLE HEADER */
@@ -33,7 +37,6 @@ h6 {
 /* list */
 
 ul {
-    
     margin-bottom: 0;
 }
 
@@ -99,8 +102,8 @@ h1 {
 }
 
 /* SECTION 2 platforms */
+
 .platforms {
-    background-color: #f3f5f9;
     padding: 50px 0;
 }
 
@@ -118,10 +121,55 @@ h1 {
     width: 100%;
 }
 
+/* SECTION 3 deploy */
 
-/* MEDIA QUERIES */
+.deploy .container {
+    padding: 50px;
+}
+
+.deploy blockquote {
+    border-left: 2px solid #8a94a9;
+    margin: 40px auto;
+}
+
+/* SECTION 4 designed */
+
+.designed {
+    height: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************
+        MEDIA QUERIES 
+*****************************/
+
 @media screen and (max-width: 767px) {
+    /* SECTION 2 platforms */
     .platforms ul li {
         width: calc((100% / 2) - 5%);
     }
 }
+
+@media screen and (min-width: 768px) {
+    /* SECTION 3 deploy */
+    .deploy .col-sm-9 {
+        margin-top: 20px;
+    }
+    
+    .deploy .col-sm-6 div {
+        height: 170px;
+        margin-top: 30px;
+    } 
+}
+
