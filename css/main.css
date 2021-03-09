@@ -151,7 +151,7 @@ h1 {
 
 /* SECTION 4 designed */
 
-.droplet img {
+.slide img {
     max-width: 50%;
     margin: 30px auto;
 }
@@ -177,12 +177,23 @@ h1 {
     border-top: none;
 }
 
+/* SECTION 7 development teams  */
 
+.rockerbox {
+    width: 50%;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+}
 
+.rockerbox img {
+    max-width: 100%;
+}
 
-
-
-
+.rockerbox h6:last-of-type {
+    margin-bottom: 30px;
+}
 
 
 
@@ -200,6 +211,7 @@ h1 {
 
 @media screen and (min-width: 768px) {
     /* SECTION 3 deploy */
+
     .deploy .col-sm-9 {
         margin-top: 20px;
     }
@@ -210,7 +222,8 @@ h1 {
     } 
 
     /* SECTION 4 arrow */
-    .droplet:after {
+
+    .slide::after {
         content: "\f054";
         font-family: "Font Awesome 5 free";
         font-size: 40px;
@@ -219,7 +232,7 @@ h1 {
         color: #031c4e; 
     }
     
-    .droplet:before {
+    .slide::before {
         content: "\f053";
         font-family: "Font Awesome 5 free";
         font-size: 40px;
@@ -227,6 +240,32 @@ h1 {
         padding: 20px;
         color: #6f7b97; 
     }
+
+    /* SECTION 7 arrow */
+
+    .rockerbox::after {
+        content: "\f054";
+        font-family: "Font Awesome 5 free";
+        font-size: 40px;
+        font-weight: 900; 
+        padding: 20px;
+        color: #031c4e; 
+        position: absolute;
+        left: 100%;
+        bottom: 38%;
+    }
+    
+    .rockerbox::before {
+        content: "\f053";
+        font-family: "Font Awesome 5 free";
+        font-size: 40px;
+        font-weight: 900; 
+        padding: 20px;
+        color: #6f7b97; 
+        position: absolute;
+        right: 100%;
+        bottom: 38%;
+    } 
 }
 
 
