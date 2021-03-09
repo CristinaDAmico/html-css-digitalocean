@@ -14,14 +14,24 @@ h6 {
 }
 
 /* UTILITIES */
+
+.p_bold{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
 .bg_l-grey {
     background-color: #f3f5f9;
+}
+
+.circle {
+    color: #006aff;
 }
 
 /* STYLE HEADER */
 
 .navbar_header {
-  
     line-height: 64px;
 } 
 
@@ -61,6 +71,8 @@ section.hero {
 }
 
 h1 {
+    font-size: 50px;
+    font-weight: bold;
     color: white;
 }
 
@@ -135,8 +147,14 @@ h1 {
 /* SECTION 4 designed */
 
 .designed {
-    height: 600px;
+    padding: 50px 0;
 }
+
+.droplet img {
+    max-width: 50%;
+    margin: 30px auto;
+}
+
 
 
 
@@ -171,5 +189,25 @@ h1 {
         height: 170px;
         margin-top: 30px;
     } 
+
+    /* SECTION 4 arrow */
+    .droplet:after {
+        content: "\f054";
+        font-family: "Font Awesome 5 free";
+        font-size: 40px;
+        font-weight: 900; 
+        padding: 20px;
+        color: #031c4e; 
+    }
+    
+    .droplet:before {
+        content: "\f053";
+        font-family: "Font Awesome 5 free";
+        font-size: 40px;
+        font-weight: 900; 
+        padding: 20px;
+        color: #6f7b97; 
+    }
 }
+
 
