@@ -25,8 +25,18 @@ h6 {
     background-color: #f3f5f9;
 }
 
+a {
+    font-weight: bold;
+    color: #006aff;
+}
+
 .circle {
     color: #006aff;
+}
+
+.p_50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /* STYLE HEADER */
@@ -67,7 +77,6 @@ section.hero {
     background-image: url(../img/bg-banner-home.jpg);
     background-size: cover;
     background-position: center;
-    padding: 50px 0;
 }
 
 h1 {
@@ -115,10 +124,6 @@ h1 {
 
 /* SECTION 2 platforms */
 
-.platforms {
-    padding: 50px 0;
-}
-
 .platforms h4 {
     color: #8a94a9;
     text-transform: uppercase;
@@ -135,10 +140,6 @@ h1 {
 
 /* SECTION 3 deploy */
 
-.deploy .container {
-    padding: 50px;
-}
-
 .deploy blockquote {
     border-left: 2px solid #8a94a9;
     margin: 40px auto;
@@ -146,15 +147,16 @@ h1 {
 
 /* SECTION 4 designed */
 
-.designed {
-    padding: 50px 0;
-}
-
 .droplet img {
     max-width: 50%;
     margin: 30px auto;
 }
 
+/* SECTION 5 features */
+
+.features img {
+    margin-top: 40px;
+}
 
 
 
