@@ -22,10 +22,10 @@
 
             <div class="row navbar_header">
                 <div class="logo col-xs-6 col-md-2">
-                    <img src="./img/logo.png" alt="logo"> 
+                    <img src="./img/do-logo.png" alt="logo"> 
                 </div>
-                <div class="col-md-6 visible-md-* visible-lg-* hidden-xs hidden-sm ">
-                    <ul>
+                <div class="col-md-6 visible-md-* visible-lg-* hidden-xs hidden-sm text-right">
+                    <ul class="list-inline">
                         <li>
                             <a href="#">Products <i class="fas fa-chevron-down"></i></a>
                         </li>
@@ -41,7 +41,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4 visible-md-* visible-lg-* hidden-xs hidden-sm text-right header_right">
-                    <ul>
+                    <ul class="list-inline">
                         <li>
                             <a href="#">Docs</a>
                         </li>
@@ -66,22 +66,42 @@
 
     <!-- MAIN CONTENT -->
     <main>
+        <!-- SECTION 1 hero -->
         <section class="hero">
             <div class="container">
-                <div class="title col-md-7">
+                <div class="title col-sm-6 col-md-6">
                     <h1>The simplest cloud platform for developers & teams</h1>
                     <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
                 </div>
-                <div class="form text-center col-md-5">
-                    <h3>Deploy your app in seconds.</h3>
-                    <a href="#">Get started now.</a>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    <button type="button" class="btn btn-default btn-lg btn-block cd-button-verde">Create your account</button>
-                    <button type="button" class="btn btn-default btn-lg btn-block cd-google">Sign up with google</button>
-                    <div>By signing up you agree to the Terms of Service.</div>
+                <div class="text-center col-sm-6 col-md-6">
+                    <div class="form">
+                        <h3>Deploy your app in seconds.</h3>
+                        <a href="#"><h3>Get started now.</h3></a>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <button type="button" class="btn btn-default btn-lg btn-block cd-button-verde">Create your account</button>
+                        <button type="button" class="btn btn-default btn-lg btn-block cd-google">
+                            <img class="logo-google" src="./img/google-icon.png" alt="icona google">
+                            Sign up with google
+                        </button>
+                        <h6>By signing up you agree to the <a href=""><u>Terms of Service</u></a>.</h6>
+                    </div>
                 </div>
             </div>
+        </section>
+
+        <!-- SECTION 2 platforms -->
+        <section class="platforms text-center">
+            <h4>Innovative businesses trust digitalocean</h4>
+            <ul class="list-inline">
+                <li><a><img src="./img/docker.png" alt="docker"></a></li>
+                <li><a><img src="./img/gitlab.png" alt="gitlab"></a></li>
+                <li><a><img src="./img/slack.png" alt="slack"></a></li>
+                <li><a><img src="./img/hashicorp.png" alt="hashicorp"></a></li>
+                <li><a><img src="./img/hashicorp.png" alt="hashicorp"></a></li>
+                <li><a><img src="./img/splunk.png" alt="splunk"></a></li>
+            </ul>
+
         </section>
 
     </main>

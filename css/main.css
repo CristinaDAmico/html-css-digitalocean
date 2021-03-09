@@ -1,12 +1,25 @@
+/* GENERAL */
 
-nav{
-    padding: 10px;
+body {
+    font-weight: bold;
+    color: #8a94a9;
 }
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #031c4e;
+    font-weight: bold;
+}
+
+/* STYLE HEADER */
 
 .navbar_header {
-    height: 50px;
-    line-height: 50px;
-}
+  
+    line-height: 64px;
+} 
 
 .logo img {
     width: 160px;
@@ -14,33 +27,30 @@ nav{
 
 .hamburger i {
     font-size: 20px;
-   
     color: #3a8aff;
 }
 
-.header_right ul {
-    padding-left: 0;
-}
-
 /* list */
-ul li {
-    display: inline-block; 
-    margin-right: 15px; 
+
+ul {
+    
+    margin-bottom: 0;
 }
 
 li a {
-    font-weight: bold;
     color: #031c4e;
-    text-decoration: none;
 }
- 
+
+/* button nav */
+
 .cd-button{
     color: #006aff;
     border-color: #006aff;
 } 
 
+/* SECTION 1 hero */
+
 section.hero {
-    background-color: #004aff;
     background-image: url(../img/bg-banner-home.jpg);
     background-size: cover;
     background-position: center;
@@ -51,8 +61,8 @@ h1 {
     color: white;
 }
 
-.hero .form {
-    padding: 30px 20px;
+.form a h3 {
+    color: #006aff;
 }
 
 .hero p {
@@ -60,16 +70,9 @@ h1 {
 }
 
 .form {
+    padding: 20px;
     border-radius: 5px;
     background-color: white;
-}
-
-.form h3 {
-    color: #072051;
-}
-
-.form a {
-    font-size: 25px;
 }
 
 .form * {
@@ -83,4 +86,32 @@ h1 {
 
 .cd-google {
     color: #626262;
+    position: relative;
+} 
+
+.logo-google {
+    max-width: 30px;
+    margin: 0;
+    position: absolute;
+    left: 3%;
+    bottom: 15%; 
+}
+
+/* SECTION 2 platforms */
+.platforms {
+    height: 550px;
+    background-color: #f3f5f9;
+}
+
+.platforms h4 {
+    color: #8a94a9;
+    text-transform: uppercase;
+}
+
+.platforms ul li {
+    width: calc((100% / 6) - 5%);
+}
+
+.platforms img {
+    max-width: 100%;
 }
