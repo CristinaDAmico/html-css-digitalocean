@@ -89,7 +89,7 @@ section.hero {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     color: white;
 }
@@ -239,6 +239,17 @@ footer .contact i {
 /*****************************
         MEDIA QUERIES 
 *****************************/
+
+@media screen and (min-width: 992px) {
+    /* SECTION 1 hero */
+    h1 {
+        font-size: 60px;
+    }
+   
+    .hero p {
+        font-size: 22px;
+    }
+}
 
 @media screen and (max-width: 767px) {
     /* SECTION 2 platforms */
