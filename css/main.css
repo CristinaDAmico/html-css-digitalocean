@@ -240,10 +240,6 @@ footer .contact i {
 
 .chat {
     max-width: 100%;
-    position: relative;
-}
-
-.chat-fixed {
     position: fixed;
     bottom: 40px;
     left: 70px;
@@ -294,15 +290,6 @@ footer .contact i {
 }
 
 
-
-
-
-
-
-
-
-
-
 /*****************************
         MEDIA QUERIES 
 *****************************/
@@ -316,6 +303,24 @@ footer .contact i {
     .hero p {
         font-size: 22px;
     }
+
+    /* style chat  */
+    .shark {
+        position: fixed;
+        bottom: 22px;
+        right: 37px;
+    }
+
+    .notifiche {
+        bottom: 67%;
+        left: 65%;
+    }
+
+    .help {
+        position: fixed;
+        bottom: 22px;
+        right: 120px;
+    }  
 }
 
 @media screen and (max-width: 767px) {
